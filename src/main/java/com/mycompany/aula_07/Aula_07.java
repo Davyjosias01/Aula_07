@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.aula_07;
 
-/**
- *
- * @author 414773
- */
 public class Aula_07 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Salario s = new Salario(100, 200);
+        
+        Funcionario f = new Funcionario("Davy", s);
+   
+        f.exibeDados();
+        
+        f.adicionaAumentoValor(1000);
+        
+        f.exibeDados();
     }
 }
