@@ -6,12 +6,11 @@ public class Aula_07 {
         
         Salario s = new Salario(100, 200);
         
-        Funcionario f = new Funcionario("Davy", s);
-   
-        f.exibeDados();
+        AssistenteTecnico a = new AssistenteTecnico(1500, 13, "Samuel de Marco", s);
+        a.exibeDados();
         
-        f.adicionaAumentoValor(1000);
+        a.calculaBonusSalarial();
         
-        f.exibeDados();
+        a.exibeDados();
     }
 }

@@ -11,21 +11,17 @@ public class Assistente extends Funcionario{
     }
 
     public Assistente(){}
-    
     public Assistente(int matricula) {
         this.matricula = matricula;
     }
-
     public Assistente(int matricula, String nome, Salario salario) {
         super(nome, salario);
         this.matricula = matricula;
     }
-
     public Assistente(int matricula, String nome, double qtd_horas, double val_hora) {
         super(nome, qtd_horas, val_hora);
         this.matricula = matricula;
     }
-
     public Assistente(int matricula, String nome, double s) {
         super(nome, s);
         this.matricula = matricula;
